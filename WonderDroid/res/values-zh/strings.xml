@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WonderDroid</string>
+    <string name="crash_string">WonderDroid崩溃了!</string>
+    <string name="noroms">没有找到ROM - 请退出, 下载ROM放到SD卡下的 wonderdroid 目录下, 然后再重试.</string>
+    <string name="nosdcard">SD卡不可用.</string>
+    <string name="colour">Colour Only - </string>
+    <string name="mono">Mono compatible - </string>
+    <string name="vertical">垂直</string>
+    <string name="horizontal">水平</string>
+    <string name="selectgame">返回主页</string>
+    <string name="exit">退出</string>
+    <string name="preferences">选项</string>
+    <string name="importgame">导入游戏</string>
+    <string name="togglescreencontrols">虚拟手柄</string>
+    <string name="pause">暂停</string>
+    <string name="reset">重置</string>
+    <string name="settings_cat_controls">控制按键设置</string>
+    <string name="control_x2">X2 (右)</string>
+    <string name="control_x3">X3 (下)</string>
+    <string name="control_x4">X4 (左)</string>
+    <string name="control_x1">X1 (上)</string>
+    <string name="set">设置</string>
+    <string name="clear">清除</string>
+    <string name="pressakey">请按下一个按键</string>
+    <string name="birthday">生日</string>
+    <string name="sex">性别</string>
+    <string name="bloodtype">血型</string>
+    <string name="settings_cat_ws">WonderSwan设置</string>
+    <string name="name">姓名</string>
+    <string name="overriderompath">重新设置ROM目录</string>
+    <string name="emulator_settings">模拟器设置</string>
+    <string name="enable_sound">打开声音</string>
+    <string name="enable_sound_sum">模拟器太卡的话可以关闭声音.</string>
+    <string name="support_settings">支持设置</string>
+
+    <string-array name="sexes">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+</resources>

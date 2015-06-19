@@ -30,6 +30,10 @@
     <string name="settings_cat_ws">WonderSwan settings</string>
     <string name="name">Name</string>
     <string name="overriderompath">Override ROM path</string>
+    <string name="emulator_settings">Emulator Settings</string>
+    <string name="enable_sound">Enable Sound</string>
+    <string name="enable_sound_sum">Disable this if you find the emulator too slow.</string>
+    <string name="support_settings">Support Settings</string>
 
     <string-array name="sexes">
         <item>Male</item>

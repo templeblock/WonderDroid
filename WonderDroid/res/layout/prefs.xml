@@ -48,13 +48,13 @@
             android:title="Start" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="Emulator Settings" >
+    <PreferenceCategory android:title="@string/emulator_settings" >
 
         <CheckBoxPreference
             android:defaultValue="true"
             android:key="emusound"
-            android:summary="Disable this if you find the emulator too slow."
-            android:title="Enable Sound" />
+            android:summary="@string/enable_sound_sum"
+            android:title="@string/enable_sound" />
 
         <!--
        <CheckBoxPreference
@@ -110,7 +110,7 @@
             android:title="@string/bloodtype" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="Support Settings" >
+    <PreferenceCategory android:title="@string/support_settings" >
 
         <CheckBoxPreference
             android:defaultValue="false"
