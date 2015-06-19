@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings_cat_controls" >
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolY1"
+            android:title="Y1" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolY2"
+            android:title="Y2" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolY3"
+            android:title="Y3" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolY4"
+            android:title="Y4" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolX1"
+            android:title="@string/control_x1" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolX2"
+            android:title="@string/control_x2" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolX3"
+            android:title="@string/control_x3" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolX4"
+            android:title="@string/control_x4" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolA"
+            android:title="A" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolB"
+            android:title="B" />
+
+        <uk.org.cardboardbox.wonderdroid.views.HardwareButtonPreference
+            android:key="hwcontrolStart"
+            android:title="Start" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Emulator Settings" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="emusound"
+            android:summary="Disable this if you find the emulator too slow."
+            android:title="Enable Sound" />
+
+        <!--
+       <CheckBoxPreference
+                android:key="emufpscounter"
+                android:title="Enable FPS counter"
+                android:defaultValue="false"
+                android:summary="Show an FPS counter on the screen" />
+        -->
+
+
+        <!--
+             <CheckBoxPreference
+                android:key="emuframeskip"
+                android:title="Enable Frameskip"
+                android:defaultValue="true"
+                android:summary="Enable frameskipping to help the emulator catch up if it gets behind." />
+        -->
+        <!--
+    	<CheckBoxPreference
+                android:key="emuforcemono"
+                android:title="Force Mono"
+                android:defaultValue="false"
+                android:summary="Force the emulator to emulate an original mono Wonder Swan." />
+        -->
+
+        <EditTextPreference
+            android:key="emu_rompath"
+            android:maxLength="256"
+            android:title="@string/overriderompath" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_cat_ws" >
+
+        <EditTextPreference
+            android:key="ws_name"
+            android:maxLength="16"
+            android:title="@string/name" />
+
+        <uk.org.cardboardbox.wonderdroid.views.DatePreference
+            android:key="ws_birthday"
+            android:title="@string/birthday" />
+
+        <ListPreference
+            android:entries="@array/sexes"
+            android:entryValues="@array/sexvalues"
+            android:key="ws_sex"
+            android:title="@string/sex" />
+
+        <ListPreference
+            android:entries="@array/bloodtypes"
+            android:entryValues="@array/bloodtypevalues"
+            android:key="ws_blood"
+            android:title="@string/bloodtype" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Support Settings" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="adsupported"
+            android:summary="This allows adverts to be displayed on the game selection screen. In the future this will unlock extra features like save states."
+            android:title="Allow adverts" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WonderDroid</string>
+    <string name="crash_string">WonderDroid crashed!</string>
+    <string name="noroms">No roms found - Please exit, add roms to wonderdroid/ on your SD card, and try again.</string>
+    <string name="nosdcard">SD Card isn\'t present or isn\'t ready.</string>
+    <string name="colour">Colour Only - </string>
+    <string name="mono">Mono compatible - </string>
+    <string name="vertical">Vertical</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="selectgame">Select Game</string>
+    <string name="exit">Exit</string>
+    <string name="preferences">Preferences</string>
+    <string name="importgame">Import Game</string>
+    <string name="togglescreencontrols">Toggle Screen Controls</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="settings_cat_controls">Control Settings</string>
+    <string name="control_x2">X2 (Right)</string>
+    <string name="control_x3">X3 (Down)</string>
+    <string name="control_x4">X4 (Left)</string>
+    <string name="control_x1">X1 (Up)</string>
+    <string name="set">Set</string>
+    <string name="clear">Clear</string>
+    <string name="pressakey">Press a key</string>
+    <string name="birthday">Birthday</string>
+    <string name="sex">Sex</string>
+    <string name="bloodtype">Bloodtype</string>
+    <string name="settings_cat_ws">WonderSwan settings</string>
+    <string name="name">Name</string>
+    <string name="overriderompath">Override ROM path</string>
+
+    <string-array name="sexes">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

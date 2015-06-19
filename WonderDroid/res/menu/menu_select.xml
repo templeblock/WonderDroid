@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/group_emucntrl" >
+        <item
+            android:id="@+id/select_prefsmi"
+            android:icon="@drawable/ic_menu_preferences"
+            android:showAsAction="always|withText"
+            android:title="@string/preferences"/>
+        <!--
+        <item
+            android:id="@+id/select_importmi"
+            android:icon="@drawable/ic_menu_import"
+            android:showAsAction="always|withText"
+            android:title="@string/importgame"/>
+        -->
+        <item
+            android:id="@+id/select_exitmi"
+            android:icon="@drawable/ic_menu_exit"
+            android:showAsAction="always|withText"
+            android:title="@string/exit"/>
+    </group>
+
+</menu>
